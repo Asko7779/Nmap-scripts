@@ -1,3 +1,5 @@
+-- This script is still in development
+
 description = [[
     attempts to brute force SSH credentials with a list of usernames and passwords
 ]]
@@ -12,6 +14,8 @@ end
 
 
 action = function(host, port)
+
+    -- adjustable credentials
 
     local usernames = {
     "admin", "root", "guest", "user", "ssh", "test", "ubuntu", "pi", "admin1", "oracle", 
