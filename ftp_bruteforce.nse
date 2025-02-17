@@ -1,3 +1,5 @@
+-- works in progress
+
 description = [[
     attempts to brute force an FTP server with a list of credentials
 ]]
@@ -11,6 +13,9 @@ portrule = function(host, port)
 end
 
 action = function(host, port)
+
+    -- adjustable list of credentials
+
     local usernames = {"admin", "root", "guest", "anonymous", "ftp"}
     local passwords = {"admin", "toor", "guest", "1234", "ftp"}
 
