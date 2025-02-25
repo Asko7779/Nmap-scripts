@@ -1,4 +1,4 @@
--- This script is still in development
+-- this script is still in development
 
 description = [[
     attempts to brute force SSH credentials with a list of usernames and passwords
